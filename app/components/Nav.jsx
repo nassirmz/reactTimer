@@ -17,7 +17,7 @@ var Nav = () => {
           </li>
         </ul>
         <ul className="nav navbar-nav navbar-right">
-          <li>Created by <a href="http://github/nassirmz">Nassir Zeinu</a></li>
+          <li>Created by <a href="http://github.com/nassirmz" target="_blank">Nassir Zeinu</a></li>
         </ul>
       </nav>
     </div>
