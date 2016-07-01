@@ -4,7 +4,7 @@ var {Link, IndexLink} = require('react-router');
 var Nav = () => {
   return (
     <div>
-      <nav className="navbar navbar-default">
+      <nav className="navbar navbar-inverse">
         <div className="navbar-header">
           <a href="#" className="navbar-brand">Brand</a>
         </div>
