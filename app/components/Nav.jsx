@@ -13,7 +13,7 @@ var Nav = () => {
             <IndexLink to="/">Timer</IndexLink>
           </li>
           <li>
-            <Link to="/">Countdown</Link>
+            <Link to="/countdown">Countdown</Link>
           </li>
         </ul>
         <ul className="nav navbar-nav navbar-right">
