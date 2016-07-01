@@ -16,7 +16,7 @@ var Countdown = React.createClass({
   render: function () {
     var {count} = this.state;
     return (
-      <div className="col-md-4 col-md-offset-4">
+      <div className="col-sm-3 count-down">
         <Clock totalSeconds={count} />
         <CountdownForm onSetCountDown={this.handleSetCountdown} />
       </div>
