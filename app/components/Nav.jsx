@@ -1,32 +1,25 @@
 var React = require('react');
-var {Link, indexLink} = require('react-router');
+var {Link, IndexLink} = require('react-router');
 
 var Nav = () => {
   return (
-    <div className="top-bar">
-      <div className="top-bar-left">
-        <ul className="menu">
-          <li className="menu-text">
-            React Timer App
+    <div>
+      <nav className="navbar navbar-default">
+        <div className="navbar-header">
+          <a href="#" className="navbar-brand">Brand</a>
+        </div>
+        <ul className="nav navbar-nav">
+          <li>
+            <IndexLink to="/">Timer</IndexLink>
           </li>
           <li>
-            <indexLink to="/" activeClassName="active-link">
-              Timer
-            </indexLink>
-          </li>
-          <li>
-            <Link to="/" activeClassName="active-link">Countdown</Link>
+            <Link to="/">Countdown</Link>
           </li>
         </ul>
-      </div>
-      <div className="top-bar-right">
-        <ul className="menu">
-          <li className="menu-text">
-            Created by <a href="http://github.com/nassirmz" target="_blank">Nassir Zeinu</a>
-          </li>
+        <ul className="nav navbar-nav navbar-right">
+          <li>Created by <a href="http://github/nassirmz">Nassir Zeinu</a></li>
         </ul>
-      </div>
-
+      </nav>
     </div>
   )
 }
