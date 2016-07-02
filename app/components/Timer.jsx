@@ -6,7 +6,7 @@ var Timer = React.createClass({
   getInitialState: function () {
     return {
       count: 0,
-      countdownStatus: 'paused'
+      countdownStatus: 'stopped'
     };
   },
   componentDidUpdate: function (prevProps, prevState) {
@@ -46,7 +46,7 @@ var Timer = React.createClass({
   render: function () {
     var {count, countdownStatus} = this.state;
     return (
-      <div className="col-sm-3 count-down">
+      <div className="col-md-3 col-sm-4 count-down">
         <h1 className="page-title">Timer</h1>
         <Clock totalSeconds={count}/>
         <Controls onStatusChange={this.handleStatusChange} countdownStatus={countdownStatus}/>
