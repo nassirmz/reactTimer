@@ -14,13 +14,17 @@
 }
 
 .controls {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   .btn {
     background: white;
     border: 1px solid black;
-    margin: 0 5px;
+    padding: .7rem 3rem;
   }
   .clear {
     color: red;
+  }
+  .clear {
+    margin-left: 1rem;
   }
 }
