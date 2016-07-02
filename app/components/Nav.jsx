@@ -6,7 +6,7 @@ var Nav = () => {
     <div>
       <nav className="navbar navbar-inverse">
         <div className="navbar-header">
-          <a href="#" className="navbar-brand">Brand</a>
+          <a href="#" className="navbar-brand">REACT TIMER APP</a>
         </div>
         <ul className="nav navbar-nav">
           <li>
